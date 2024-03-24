@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta name="description" content="Trends search website made with Google Trends API">
+  <meta property="og:image" content="/assets/Img/favicon.ico">
+
+  <title>Search Trends</title>
+
+  <link rel="shortcut icon" href="./assets/Img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/CSS/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <div class="dark-mode">
+    <input type="checkbox" name="Dark-Theme" id="dark-mode">
+    <label for="Dark-Theme">Dark-Theme</label>
+  </div>
+
+  <div id="input-container"></div>
+
+  <div id="loading-container">
+    <div class="dash uno"></div>
+    <div class="dash dos"></div>
+    <div class="dash tres"></div>
+    <div class="dash cuatro"></div>
+  </div>
+
+  <div id="error"></div>
+
+  <div id="chart-container">
+    <canvas id="barChart"></canvas>
+    <canvas id="lineChart"></canvas>
+  </div>
+
+  <script defer type="module" src="./assets/JS/index.js"></script>
+</body>
+
+</html>

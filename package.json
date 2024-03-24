@@ -1,0 +1,26 @@
+{
+  "name": "search-trends",
+  "version": "1.0.1",
+  "description": "Trends search website made with Google Trends API",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-trends-api": "^4.9.2",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "google",
+    "google-trends",
+    "guess",
+    "compare",
+    "trends",
+    "search"
+  ],
+  "author": "OutdatedGuy Aditya",
+  "license": "BSD 3-Clause",
+  "type": "module"
+}

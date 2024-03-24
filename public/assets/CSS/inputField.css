@@ -1,0 +1,35 @@
+:root {
+  /* Light mode input box */
+  --input-light-bg: rgb(51 54 66);
+  --input-light-text: #fff;
+
+  /* Dark mode input box */
+  --input-dark-bg: rgb(232, 240, 254);
+  --input-dark-text: black;
+}
+
+.input {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 20px 15px 0px;
+}
+
+@media screen and (max-width: 502px) {
+  .input {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .input {
+    margin: 20px 5px 0px;
+  }
+}
+
+#input-container {
+  margin: 30px 0px 50px;
+}
